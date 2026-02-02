@@ -211,6 +211,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectorName: BlueCube
   collectDistance: 0.5
+  collector: {fileID: 0}
+  isCollected: 0
+--- !u!114 &99048506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99048500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fde3f35bcbb74eeda41b2cda41ed76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectorName: BlueCube
+  collectDistance: 0.5
+  hoverAmplitude: 0.15
+  hoverSpeed: 2
+  rotationSpeed: 45
 --- !u!1001 &100996744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -473,6 +492,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectorName: BlueCube
   collectDistance: 0.5
+  collector: {fileID: 0}
+  isCollected: 0
+--- !u!114 &220049291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220049285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fde3f35bcbb74eeda41b2cda41ed76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectorName: BlueCube
+  collectDistance: 0.5
+  hoverAmplitude: 0.15
+  hoverSpeed: 2
+  rotationSpeed: 45
 --- !u!1001 &290406296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -548,6 +586,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 290406298}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 290406303}
   m_SourcePrefab: {fileID: 100100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
 --- !u!1 &290406297 stripped
 GameObject:
@@ -568,6 +609,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectorName: BlueCube
   collectDistance: 0.5
+  collector: {fileID: 0}
+  isCollected: 0
+--- !u!114 &290406303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290406297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fde3f35bcbb74eeda41b2cda41ed76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectorName: BlueCube
+  collectDistance: 0.5
+  hoverAmplitude: 0.15
+  hoverSpeed: 2
+  rotationSpeed: 45
 --- !u!1001 &333303248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -643,6 +703,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1405804898}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1405804903}
   m_SourcePrefab: {fileID: 100100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
 --- !u!1 &344743097
 GameObject:
@@ -1022,6 +1085,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 894157464}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 894157469}
   m_SourcePrefab: {fileID: 100100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
 --- !u!1 &894157463 stripped
 GameObject:
@@ -1042,6 +1108,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectorName: BlueCube
   collectDistance: 0.5
+  collector: {fileID: 0}
+  isCollected: 0
+--- !u!114 &894157469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894157463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fde3f35bcbb74eeda41b2cda41ed76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectorName: BlueCube
+  collectDistance: 0.5
+  hoverAmplitude: 0.15
+  hoverSpeed: 2
+  rotationSpeed: 45
 --- !u!1001 &901910843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1263,6 +1348,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1721365346}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1721365351}
   m_SourcePrefab: {fileID: 100100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
 --- !u!1001 &1124909643
 PrefabInstance:
@@ -1648,6 +1736,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectorName: BlueCube
   collectDistance: 0.5
+  collector: {fileID: 0}
+  isCollected: 0
+--- !u!114 &1405804903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405804897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fde3f35bcbb74eeda41b2cda41ed76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectorName: BlueCube
+  collectDistance: 0.5
+  hoverAmplitude: 0.15
+  hoverSpeed: 2
+  rotationSpeed: 45
 --- !u!1001 &1417563849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1674,7 +1781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.618
+      value: -4.79
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1682,7 +1789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.822
+      value: 0.92
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1723,6 +1830,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 99048501}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 99048506}
   m_SourcePrefab: {fileID: 100100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
 --- !u!1001 &1466553271
 PrefabInstance:
@@ -1956,6 +2066,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 220049290}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 220049291}
   m_SourcePrefab: {fileID: 100100000, guid: f8fbc238a5fda654f8cee182334726f8, type: 3}
 --- !u!1 &1577350091
 GameObject:
@@ -2100,6 +2213,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectorName: BlueCube
   collectDistance: 0.5
+  collector: {fileID: 0}
+  isCollected: 0
+--- !u!114 &1721365351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721365345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fde3f35bcbb74eeda41b2cda41ed76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectorName: BlueCube
+  collectDistance: 0.5
+  hoverAmplitude: 0.15
+  hoverSpeed: 2
+  rotationSpeed: 45
 --- !u!1001 &1795493329
 PrefabInstance:
   m_ObjectHideFlags: 0
